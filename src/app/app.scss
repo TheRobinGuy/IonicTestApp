@@ -1,0 +1,31 @@
+.container{
+    background: color($colors, primary);
+    color: color($colors, light);
+    margin-top: 2em;
+}
+
+.toolbar-title{
+    text-align: center;
+}
+
+.temp{
+    font-size: 6em;
+    text-align: center;
+    font-weight: normal;
+}
+
+.location, .icon, .desc{
+    text-align: center;   
+}
+
+.icon img{
+    width: 8em;
+}
+
+.location{
+    font-size: 3em;
+}
+
+.desc{
+    font-size: 2em;
+}
