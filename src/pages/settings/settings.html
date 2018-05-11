@@ -8,7 +8,7 @@
 
 
 <ion-content padding class="container">
-  <ion-grid *ngIf="weather">
+  <ion-grid>
     <ion-row>
       <ion-col width-100>
         <ion-list>
@@ -16,13 +16,13 @@
             <ion-item>
               <ion-label fixed>
                 City
-                <ion-input ([ngModel])="city" name="city" type="text"></ion-input>
+                <ion-input [(ngModel)]="city" name="city" type="text"></ion-input>
               </ion-label>
             </ion-item>
             <ion-item>
               <ion-label fixed>
                 State
-                <ion-input ([ngModel])="state" name="state" type="text"></ion-input>
+                <ion-input [(ngModel)]="state" name="state" type="text"></ion-input>
               </ion-label>
             </ion-item>
             <button ion-button type="submit" block>Save Changes</button>
