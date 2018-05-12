@@ -14,18 +14,18 @@
         <ion-list>
           <form (ngSubmit)="saveForm()">
             <ion-item>
-              <ion-label fixed>
+              <ion-label style="color: white;" fixed>
                 City
               </ion-label>
               <ion-input [(ngModel)]="city" name="city" type="text"></ion-input>              
             </ion-item>
             <ion-item>
-              <ion-label fixed>
+              <ion-label style="color: white;" fixed>
                 State
               </ion-label>
               <ion-input [(ngModel)]="state" name="state" type="text"></ion-input>              
             </ion-item>
-            <button ion-button type="submit" block>Save Changes</button>
+            <button style="background-color: rgb(33, 148, 48)" ion-button type="submit" block>Save Changes</button>
           </form>
         </ion-list>
       </ion-col>
